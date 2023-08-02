@@ -1,8 +1,14 @@
 {
-    "dependencies": {
-        "ajv-cli": "^5.0.0"
-    },
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "description": "Your project description",
     "scripts": {
+        "lint": "eslint ./resources/*.json",
         "validate": "npx ajv validate -s schemas/relays.json -d resources/relays.json"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-plugin-json": "^2.1.2",
+        "ajv-cli": "^5.0.0"
     }
 }
