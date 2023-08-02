@@ -1,0 +1,42 @@
+[
+    {
+        "key": "kirino-jp",
+        "name": "きりのリレー(jp)",
+        "name_river": "きりの川",
+        "target": ["JP"],
+        "allow": ["JP"],
+        "deny": ["GLOBAL"],
+        "description": "string (リレーの説明など)",
+        "url": "wss://relay-jp.nostr.wirednet.jp"
+    },
+    {
+        "key": "kojira",
+        "name": "こじらリレー(jp)",
+        "name_river": "こじら川",
+        "target": ["JP"],
+        "allow": ["JP"],
+        "deny": ["GLOBAL"],
+        "description": "string (リレーの説明など)",
+        "url": "wss://r.kojira.io"
+    },
+    {
+        "key": "yabumi",
+        "name": "やぶみ(jp)",
+        "name_river": "やぶみ川",
+        "target": ["JP"],
+        "allow": ["JP"],
+        "deny": ["GLOBAL", "Cloud"],
+        "description": "string (リレーの説明など)",
+        "url": "wss://yabu.me"
+    },
+    {
+        "key": "kirino-global",
+        "name": "きりのリレー(GLOBAL)",
+        "name_river": "きりの川(グローバル)",
+        "target": ["GLOBAL"],
+        "allow": ["ALL"],
+        "deny": [],
+        "description": "string (リレーの説明など)",
+        "url": "wss://relay.nostr.wirednet.jp"
+    }
+]
