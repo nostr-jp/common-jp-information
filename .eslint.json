@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        "json"
+    ],
+    "extends": [
+        "plugin:json/recommended"
+    ],
+    "rules": {
+        "json/*": [
+            "error",
+            "always"
+        ]
+    }
+}

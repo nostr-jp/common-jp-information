@@ -1,0 +1,12 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "description": "Your project description",
+    "scripts": {
+        "lint": "eslint ./resources/*.json"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-plugin-json": "^2.1.2"
+    }
+}
