@@ -1,0 +1,69 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "relay information",
+    "description": "Nostr relay information for Japanese",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/items"
+    },
+    "definitions": {
+        "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "key": {
+                    "description": "key name of relay",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "japanese name of relay",
+                    "type": "string"
+                },
+                "name_river": {
+                    "description": "river name of relay",
+                    "type": "string"
+                },
+                "target": {
+                    "description": "list of attributes for country",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "allow": {
+                    "description": "list of attributes of allow",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "deny": {
+                    "description": "list of attributes of deny",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "description": {
+                    "description": "description of relay",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "url for the mentainer",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "allow",
+                "deny",
+                "description",
+                "key",
+                "name",
+                "name_river",
+                "target",
+                "url"
+            ],
+            "title": "list of relays"
+        }
+    }
+}
