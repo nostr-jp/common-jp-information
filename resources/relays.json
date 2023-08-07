@@ -1,6 +1,6 @@
 [
     {
-        "key": "kirino-jp",
+        "key": "kirino",
         "name": "きりのリレー(jp)",
         "name_river": "きりの川",
         "target": ["JP"],
@@ -10,14 +10,14 @@
         "url": "wss://relay-jp.nostr.wirednet.jp"
     },
     {
-        "key": "kojira",
-        "name": "こじらリレー(jp)",
-        "name_river": "こじら川",
+        "key": "takenoko",
+        "name": "のこたろリレー",
+        "name_river": "のこたろ川",
         "target": ["JP"],
         "allow": ["JP"],
         "deny": ["GLOBAL"],
         "description": "string (リレーの説明など)",
-        "url": "wss://r.kojira.io"
+        "url": "wss://nostr-relay.nokotaro.com"
     },
     {
         "key": "yabumi",
@@ -28,6 +28,36 @@
         "deny": ["GLOBAL", "Cloud"],
         "description": "string (リレーの説明など)",
         "url": "wss://yabu.me"
+    },
+    {
+        "key": "holybea",
+        "name": "ほりべあリレー",
+        "name_river": "ほりべあ川",
+        "target": ["JP"],
+        "allow": ["JP"],
+        "deny": ["GLOBAL", "Cloud"],
+        "description": "string (リレーの説明など)",
+        "url": "wss://nostr.holybea.com"
+    },
+    {
+        "key": "c-stellar",
+        "name": "かすてら(jp)",
+        "name_river": "かすてら川",
+        "target": ["JP"],
+        "allow": ["JP"],
+        "deny": ["GLOBAL", "Cloud"],
+        "description": "string (リレーの説明など)",
+        "url": "wss://nrelay-jp.c-stellar.net"
+    },
+    {
+        "key": "kojira",
+        "name": "こじらリレー(jp)",
+        "name_river": "こじら川",
+        "target": ["JP"],
+        "allow": ["JP"],
+        "deny": ["GLOBAL"],
+        "description": "string (リレーの説明など)",
+        "url": "wss://r.kojira.io"
     },
     {
         "key": "kirino-global",
